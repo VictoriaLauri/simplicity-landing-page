@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SimpliCity – Rethinking how property works for good</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-XZEX1PTRY8"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'G-XZEX1PTRY8')
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>SimpliCity</h1>
+      <h2>We’re rethinking how property works for good.</h2>
+      <p>
+        We’re building the UK’s first inclusive property platform — starting
+        with certification for forward-thinking agents, and tools that make
+        buying or selling feel calm, fair and clear.
+      </p>
+
+      <form name="waitlist" method="POST" data-netlify="true">
+        <label for="user-type">I'm interested as a:</label>
+        <select id="user-type" name="user-type" required>
+          <option value="buyer-seller">Buyer / Renter</option>
+          <option value="agent-expert">Agent / Property Expert</option>
+        </select>
+        <input
+          type="email"
+          name="email"
+          placeholder="Your email address"
+          required
+        />
+        <button type="submit">Keep me in the loop</button>
+      </form>
+    </header>
+
+    <footer>&copy; 2025 SimpliCity. All rights reserved.</footer>
+  </body>
+</html>
